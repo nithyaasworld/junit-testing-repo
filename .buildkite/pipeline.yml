@@ -1,0 +1,10 @@
+steps:
+  - label: "🔨 Tests"
+    command: echo "uploading test results"
+    artifact_paths:
+      - "test-reports/*"
+  - wait: ~
+    continue_on_failure: true
+  - plugins:
+      - junit-annotate#v1.9.0:
+          artifacts: "test-reports/*.xml"
