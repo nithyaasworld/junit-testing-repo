@@ -29,7 +29,7 @@
   <testcase classname="Supplier_FRSToFRSP.ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" time="46.196"/>
   <testcase classname="Supplier_FRSToFRSP.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" time="42.635"/>
   <testcase classname="tests.TestBase" name="@AfterSuite closeReporter" time="0.0">
-    <ignored/>
+    <failure type="NotEnoughFoo"> details about failure </failure>
   </testcase> <!-- @AfterSuite closeReporter -->
   <testcase classname="tests.TestBase" name="@AfterSuite closeReporter" time="0.0">
     <ignored/>
